@@ -53,7 +53,7 @@ import com.ibm.jzos.ZUtil;
  * Configure the listener by including this block of XML in the JSL for the chunk step:
  * 
  * 		<listeners>
- *			<listener ref="ccom.ibm.websphere.samples.batch.artifacts.ChunkTimeListener">
+ *			<listener ref="com.ibm.websphere.samples.batch.artifacts.ChunkTimeListener">
  *				<properties >
  *				<property name="outputDir" value="#{jobParameters['outputDir']}"/>
  *				<property name="writeAt" value="#{jobParameters['writeAt']}?:ChunkEnd;"/>
